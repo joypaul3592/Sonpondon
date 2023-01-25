@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Asap", sans-serif;
+}
+
+button {
+  outline: none;
+}
+ul li {
+  margin-right: 50px;
+}
+a {
+  color: #5c6574;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.bg_section {
+  background: #f3f7f9;
+}
+.hero_section {
+  overflow: hidden;
+  padding: 30px 0;
+}
+.imgDb {
+  background-image: url("../Image/background.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+}
+.heroText {
+  width: 770px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  color: #5c6574;
+  margin-bottom: 50px;
+}
+.heroimg {
+  margin-left: -100px;
+}
+.heroImg2 {
+  top: 21%;
+  right: 24%;
+}
+.heroImg3 {
+  top: 16%;
+  right: 38%;
+}
+.carosol_container {
+  margin-top: -350px;
+}
+
+/* Payment sectiopn */
+
+.paymentBigImg {
+  height: 765px;
+}
+.PaymentImgBox {
+  width: 587px;
+  height: 100px;
+  background: #e9ebec;
+  border-radius: 42px 19px 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: relative;
+  padding-left: 140px;
+  padding-right: 29px;
+}
+.payment1stImg {
+  position: absolute;
+  top: -15%;
+  left: -80px;
+}
+.paymentmarkText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #4277ff;
+  margin-top: 13px;
+  margin-bottom: 53px;
+}
+.PaymentHeaderText {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #495264;
+  margin-bottom: 71px;
+}
+.paymentPara {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 44px;
+}
+
+/* Review section */
+.revies_Section {
+  background: #f3f7f9;
+}
+.review_container {
+  max-width: 1750px;
+  margin: auto;
+  overflow: hidden;
+  padding: 121px 0;
+}
+.review_left {
+  position: relative;
+  height: 722px;
+  width: 40%;
+}
+.review_right {
+  height: 722px;
+  width: 60%;
+  background: #ffffff;
+  box-shadow: 8px 9px 141px rgba(0, 0, 0, 0.1);
+  border-radius: 90px 0px 0px 90px;
+  margin-right: 15px;
+  padding-top: 78px;
+  padding-bottom: 70px;
+  padding-left: 107px;
+  padding-right: 70px;
+  position: relative;
+}
+.review_right i {
+  font-size: 50px;
+  color: #fcc63c;
+  margin-right: 12px;
+}
+.review_right p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  color: #3f46548d;
+  margin-top: 50px;
+}
+.ReviewedUser {
+  width: 347px;
+  height: 112px;
+  filter: drop-shadow(0px 4px 57px rgba(0, 0, 0, 0.1));
+  background: #ffffff;
+  border-radius: 76px;
+  margin-top: 60px;
+  padding: 0 10px;
+}
+.ReviewedUser h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #5c6574;
+  margin-bottom: 0;
+}
+.ReviewedUser .cto {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0;
+  color: #3f46548d;
+  margin-top: 14px;
+}
+.control_box {
+  width: 320px;
+  height: 66px;
+  border-radius: 12px;
+  background: rgba(99, 10, 10, 0.292);
+  position: absolute;
+  bottom: -4.5%;
+  right: 92px;
+  overflow: hidden;
+}
+.prev {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    #3c65f6;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.next {
+  background: #4277ff;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.leftBox {
+  width: 980px;
+  height: 722px;
+  border-radius: 800px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: -61%;
+  bottom: 0;
+  border: 2px dashed #5c657459;
+}
+.reviewtext {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 11;
+  width: 219px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100px;
+  color: #5c6574;
+}
+.reviewtext span {
+  color: #4277ff;
+}
+.ReviewUserImg1 {
+  position: absolute;
+  top: -4%;
+  left: 34%;
+}
+.ReviewUserImg2 {
+  position: absolute;
+  bottom: -3.5%;
+  left: 34%;
+}
+
+.ReviewUserImg3 {
+  position: absolute;
+  top: 10%;
+  right: 28%;
+}
+.ReviewUserImg4 {
+  position: absolute;
+  bottom: 10%;
+  right: 28%;
+}
+
+.ReviewUserImg5 {
+  position: absolute;
+  top: 35%;
+  right: 4%;
+}
+
+.border_box {
+  width: 814px;
+  height: 562px;
+  background: #ffffff;
+  box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.1);
+  border-radius: 800px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: -50%;
+  bottom: 11.5%;
+}
+
+.leftBox h1 {
+  transform: none;
+}
