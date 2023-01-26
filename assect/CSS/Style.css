@@ -631,3 +631,359 @@ a {
   opacity: 0.8;
 }
 /* footer */
+
+/* Responsive */
+
+@media only screen and (min-width: 1020px) {
+  .hero_section {
+    overflow: hidden;
+    padding: 30px 0;
+  }
+  .imgDb {
+    background-image: url("../Image/background.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+  }
+  .heroText {
+    width: 500px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #5c6574;
+    margin-bottom: 50px;
+  }
+  .heroimg {
+    margin-left: -100px;
+    height: 500px;
+  }
+  .heroImg2 {
+    top: 39%;
+    right: 29%;
+    width: 60px;
+  }
+  .heroImg3 {
+    top: 19%;
+    right: 52%;
+    width: 150px;
+  }
+  .carosol_container {
+    margin-top: -280px;
+  }
+  .carosol_container img {
+    width: 800px;
+  }
+
+  /* Payment sectiopn */
+
+  .paymentBigImg {
+    height: 465px;
+  }
+  .PaymentImgBox {
+    width: 520px;
+    gap: 16px;
+    position: relative;
+    padding-left: 90px;
+    padding-right: 29px;
+  }
+  .PaymentImg {
+    width: 60px;
+  }
+  .payment1stImg {
+    width: 160px;
+    top: 0;
+    left: -70px;
+  }
+
+  .paymentmarkText {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .PaymentHeaderText {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .paymentPara {
+    margin-bottom: 20px;
+  }
+
+  /* Review section */
+
+  .review_container {
+    max-width: 1020px;
+    margin: auto;
+    overflow: visible;
+    padding: 120px 0;
+  }
+  .review_left {
+    position: relative;
+    height: 522px;
+    width: 40%;
+  }
+  .review_right {
+    height: 522px;
+    width: 50%;
+    margin-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+  .review_right i {
+    font-size: 30px;
+    margin-right: 8px;
+  }
+  .review_right p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+  .ReviewedUser {
+    width: 307px;
+    height: 90px;
+    margin-top: 40px;
+  }
+  .ReviewedUser h2 {
+    font-size: 20px;
+  }
+  .ReviewedUser .cto {
+    font-size: 16px;
+  }
+  .control_box {
+    width: 250px;
+    height: 50px;
+    bottom: -4%;
+  }
+  .prev {
+    font-size: 18px;
+  }
+
+  .next {
+    font-size: 18px;
+  }
+
+  .leftBox {
+    width: 580px;
+    height: 522px;
+    border-radius: 800px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    left: -61%;
+    bottom: 0;
+    border: 2px dashed #5c657459;
+  }
+  .border_box {
+    width: 514px;
+    height: 342px;
+    background: #ffffff;
+    box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.1);
+    border-radius: 800px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    left: -65%;
+    bottom: 17%;
+  }
+  .reviewtext {
+    position: absolute;
+    top: 33%;
+    left: 7%;
+    z-index: 11;
+    width: 100px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .reviewtext span {
+    color: #4277ff;
+  }
+  .ReviewUserImg1 {
+    position: absolute;
+    top: -4%;
+    left: 34%;
+  }
+  .ReviewUserImg2 {
+    position: absolute;
+    bottom: -2%;
+    left: 34%;
+  }
+
+  .ReviewUserImg3 {
+    position: absolute;
+    top: 10%;
+    right: 22%;
+  }
+  .ReviewUserImg4 {
+    position: absolute;
+    bottom: 10%;
+    right: 22%;
+  }
+
+  .ReviewUserImg5 {
+    position: absolute;
+    top: 30%;
+    right: -9%;
+  }
+
+  .leftBox h1 {
+    transform: none;
+  }
+
+  /* Brand */
+
+  .brand_section {
+    padding-top: 180px;
+  }
+
+  .brand_container {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 3.39%,
+      #ffffff 49.96%,
+      rgba(255, 255, 255, 0) 96.54%
+    );
+    height: 250px;
+    width: 100%;
+    z-index: 11;
+  }
+  .brand_container img {
+    width: 150px;
+  }
+  .brand_shadow {
+    position: absolute;
+    width: 470px;
+    height: 392px;
+  }
+  .arrow {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .arrow_left {
+    background: rgb(255, 255, 255);
+  }
+  .arrow_right {
+    background: #4277ff;
+    color: #fff;
+  }
+
+  /* DashBoad */
+
+  .dashboard_container {
+    height: 1135px;
+    margin-left: 15%;
+    background: #3c65f6;
+    padding: 54px 0;
+    padding-left: 380px;
+    overflow: hidden;
+  }
+
+  .left_menuBox {
+    height: 840px;
+  }
+  .left_menuBox h2 {
+    font-size: 24px;
+  }
+  .btnBox {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .left_menuBox button {
+    padding: 0 20px;
+    height: 32px;
+    font-size: 16px;
+  }
+  .menuItemBox .dashboard_menuCard {
+    width: 300px;
+    height: 58px;
+    display: flex;
+  }
+  .menuItemBox .dashboard_menuCard h1 {
+    font-size: 16px;
+  }
+
+  .dashboard_right h1 {
+    width: 447px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: -20px;
+  }
+
+  /* Collection */
+  .collection_sectoin {
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
+  .collection_container {
+    margin-left: 0;
+    width: 100%;
+    height: 216px;
+    padding-left: 40px;
+  }
+  .collection_container button {
+    display: none;
+  }
+  .colectionText {
+    margin-left: 47px;
+    margin-right: 122px;
+  }
+  .colectionText h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .colectionText p {
+    font-size: 16px;
+  }
+  .clloctionMan {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+  }
+
+  /* footer */
+  .footerSection {
+    padding-top: 110px;
+  }
+  .footer_container {
+    margin-right: 0;
+    background: #ffffff;
+    border-radius: 0px;
+    padding: 100px 0;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .contact_secvice {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+  }
+
+  .copeRight_container {
+    margin-right: 0;
+    background: #ffffff;
+    padding-left: 30px;
+    padding-right: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .copeRight_container .footer_lastMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+  }
+  /* footer */
+}
